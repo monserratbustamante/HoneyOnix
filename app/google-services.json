@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "1048710840323",
+    "firebase_url": "https://colmena-6b9f4-default-rtdb.firebaseio.com",
+    "project_id": "colmena-6b9f4",
+    "storage_bucket": "colmena-6b9f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048710840323:android:e67fd0e71794aebb39ce36",
+        "android_client_info": {
+          "package_name": "co.midominio.proyect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048710840323-fp14gsl0vd47ptcvsonuad5c2tg83e3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbPoYBjHt-0H3MQIwdQteABHFiaECSZK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048710840323-fp14gsl0vd47ptcvsonuad5c2tg83e3c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048710840323:android:ff42f451fa60c3eb39ce36",
+        "android_client_info": {
+          "package_name": "com.monse.aplicacion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048710840323-fp14gsl0vd47ptcvsonuad5c2tg83e3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbPoYBjHt-0H3MQIwdQteABHFiaECSZK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048710840323-fp14gsl0vd47ptcvsonuad5c2tg83e3c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048710840323:android:6bfc4b0e2c34fc5439ce36",
+        "android_client_info": {
+          "package_name": "com.monse.proyecto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048710840323-fp14gsl0vd47ptcvsonuad5c2tg83e3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbPoYBjHt-0H3MQIwdQteABHFiaECSZK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048710840323-fp14gsl0vd47ptcvsonuad5c2tg83e3c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
