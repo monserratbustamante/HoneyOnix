@@ -9,15 +9,31 @@
     android:background="@drawable/fondo">
 
     <!--    Your application icon-->
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginBtn"
+        android:layout_width="92dp"
+        android:layout_height="49dp"
+        android:background="@color/amarillo"
+        android:text="@string/register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.661" />
+
     <com.google.android.material.imageview.ShapeableImageView
-        android:layout_width="163dp"
-        android:layout_height="160dp"
+        android:layout_width="309dp"
+        android:layout_height="207dp"
         android:src="@mipmap/logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.1" />
+        app:layout_constraintVertical_bias="0.066" />
+
+    <!--    Create a New Account Button-->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,7 +41,8 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.35">
+        app:layout_constraintVertical_bias="0.439"
+        tools:layout_editor_absoluteX="0dp">
 
         <!--        Email Input Field-->
         <com.google.android.material.textfield.TextInputLayout
@@ -42,7 +59,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/emailRegister"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="56dp"
                 android:inputType="text"
                 android:maxLength="40"
                 android:singleLine="true" />
@@ -52,7 +69,7 @@
         <com.google.android.material.textfield.TextInputLayout
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:layout_marginHorizontal="16dp"
             android:layout_marginTop="20dp"
             android:hint="@string/password"
@@ -72,59 +89,29 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.7">
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="0.7"
-            android:gravity="end|center_vertical"
-            android:paddingHorizontal="10dp"
-            android:text="@string/already_have_account"
-            android:textColor="@color/black"
-            android:textSize="18sp" />
-
-        <TextView
-            android:id="@+id/loginTV"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="0.3"
-            android:gravity="center_vertical"
-            android:text="@string/login"
-            android:textColor="@color/white"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-    </LinearLayout>
-
-    <!--    Create a New Account Button-->
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/createAccountBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="60dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6"
-        android:text="@string/create_account"/>
-
     <com.google.android.gms.common.SignInButton
         android:id="@+id/googleBtn"
         android:layout_width="150dp"
         android:layout_height="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8" />
+        app:layout_constraintVertical_bias="0.824" />
+
+    <TextView
+        android:layout_width="159dp"
+        android:layout_height="58dp"
+        android:layout_weight="0.7"
+        android:gravity="end|center_vertical"
+        android:paddingHorizontal="10dp"
+        android:text="@string/already_have_account"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="555dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
